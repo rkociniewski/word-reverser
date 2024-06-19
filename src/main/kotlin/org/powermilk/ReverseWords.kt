@@ -1,6 +1,6 @@
 package org.powermilk
 
-const val PUNCT_REGEX_STRING = "[\\p{Punct}\\s]"
+private const val PUNCT_REGEX_STRING = "[\\p{Punct}\\s]"
 
 /**
  * Function extension for reverse words lettering (reverse word without changing order).
