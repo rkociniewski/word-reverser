@@ -26,7 +26,10 @@ internal class ReverseWordsTest {
         Arguments.of("My name   is PowerMilk", "yM eman si kliMrewoP"),
         Arguments.of("My name is\tPowerMilk", "yM eman si kliMrewoP"),
         Arguments.of("This is test for reverse words function", "sihT si tset rof esrever sdrow noitcnuf"),
-        Arguments.of("This              is\ttest for\nreverse\rwords \t\n\rfunction", "sihT si tset rof esrever sdrow noitcnuf"),
+        Arguments.of(
+            "This              is\ttest for\nreverse\rwords \t\n\rfunction",
+            "sihT si tset rof esrever sdrow noitcnuf"
+        ),
         Arguments.of("Litwo! Ojczyzno moja! Ty jesteś jak zdrowie,", "owtiL! onzyzcjO ajom! yT śetsej kaj eiwordz,"),
         Arguments.of("", ""),
         Arguments.of("     ", ""),
@@ -47,7 +50,10 @@ internal class ReverseWordsTest {
         Arguments.of("My name   is PowerMilk", "PowerMilk is name My"),
         Arguments.of("My name is\tPowerMilk", "PowerMilk is name My"),
         Arguments.of("This is test for reverse words function", "function words reverse for test is This"),
-        Arguments.of("This              is\ttest for\nreverse\rwords \t\n\rfunction", "function words reverse for test is This"),
+        Arguments.of(
+            "This              is\ttest for\nreverse\rwords \t\n\rfunction",
+            "function words reverse for test is This"
+        ),
         Arguments.of("Litwo! Ojczyzno moja! Ty jesteś jak zdrowie,", ",zdrowie jak jesteś Ty !moja Ojczyzno !Litwo"),
         Arguments.of("", ""),
         Arguments.of("     ", ""),
